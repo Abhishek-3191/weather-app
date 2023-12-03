@@ -1,13 +1,15 @@
 .wetherBg{
-  background: url("https://www.accuweather.com/images/hero/4/1440x450.jpg");
+  /* background: url("https://www.accuweather.com/images/hero/4/1440x450.jpg"); */
   height: 50vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding:20px;
 }
 .heading{
-  color:white;
+ text-align: center;
+  color:black;
   font-weight: 700;
 }
 .wetherResultBox{
@@ -26,4 +28,12 @@
 .weathorTemp{
   font-size:55px;
   font-weight: 700;
+}
+.weather-container {
+  background-color: #f0f0f0; /* Set your desired background color */
+}
+.weatherIcon {
+  background-color: #f0f0f0;
+  max-width: 400px; /* Set maximum width to 100% */
+  height: 400px; /* Maintain aspect ratio */
 }
